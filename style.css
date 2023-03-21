@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 :root {
   font-size: 62.5%;
 }
@@ -20,7 +19,6 @@ body {
 main {
   max-width: 33.0rem;
   margin: 0 auto;
-  
 }
 
 h1 {
@@ -77,6 +75,10 @@ ul li {
   gap: 3.8rem;
 }
 
+ul li + li {
+  margin-top: 3.2rem;
+}
+
 ul li span {
   font-weight: 800;
   font-size: 7.2rem;
@@ -86,5 +88,4 @@ ul li span {
 
 .space {
   margin-left: 1.2rem;
-
 }
